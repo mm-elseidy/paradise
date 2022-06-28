@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Template</title>
+    <!-- style file -->
+    <link rel="stylesheet" href="CSS/paradise.css" />
+    <!-- normalize file -->
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@300;400;500;600;700;800;900&family=Grand+Hotel&family=Jomhuria&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Merienda:wght@400;700&family=Montserrat+Alternates:wght@400;500;600;700&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".fa-search").click(function() {
+                $(".search-box").toggle();
+                $("nav ul .search-box input[type='text']").focus();
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- Start Header -->
+
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="active">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <div class="search-box">
+                        <input type="text">
+                        <input type="button" value="Search">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="intro-text">
+                <h1>Title Here</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <div class="btn">
+                    <a href="#">order now</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- End Header -->
+    <!-- Start product -->
+    <div class="product" id="product">
+        <div class="container">
+            <h3>Best Seller</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="boxes">
+                <div class="box">
+                    <img src="images/best-1.jpg" alt="">
+                    <h4>Title Here</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="box">
+                    <img src="images/best-2.jpg" alt="">
+                    <h4>Title Here</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="box">
+                    <img src="images/best-3.jpg" alt="">
+                    <h4>Title Here</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End product -->
+    <!-- Start promo -->
+    <div class="promo" id="promo">
+        <div class="container">
+            <div class="image">
+                <img src="images/oriental-img.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>oriental Taste</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <div class="btn">
+                    <a href="#">order now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End promo -->
+
+    <!-- Start Statistics -->
+    <div class="statistics">
+        <div class="container">
+            <h3>Statistics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="cards">
+                <div class="card">
+                    <div class="stat">
+                        <h4>123</h4>
+                        <h5>outlets</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stat">
+                        <h4>100</h4>
+                        <h5>chef</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stat">
+                        <h4>300</h4>
+                        <h5>menu</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="stat">
+                        <h4>30</h4>
+                        <h5>country</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Statistics -->
+    <!-- Start Grill -->
+    <div class="grill">
+        <div class="container">
+            <div class="info">
+                <h3>Chicken Grill</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                <div class="btn">
+                    <a href="#">order now</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/chiken-img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Grill -->
+
+    <!-- Start About -->
+    <div class="about" id="about">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <h3>Lenora Fields</h3>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3>Subscribe</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <div class="form">
+                <input type="mail" name="" id="mail" placeholder="Your Email">
+                <label for="mail"><button type="submit">Subscribe</button></label>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="left-side">
+                <h4>title here</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="right-side">
+                <div class="ab">
+                    <h3>about</h3>
+                    <p>
+                        <a href="">History</a>
+                    </p>
+                    <p>
+                        <a href="">Our Team</a>
+                    </p>
+                    <p>
+                        <a href="">Brand Guidelines</a>
+                    </p>
+                    <p>
+                        <a href="">Terms&Condition</a>
+                    </p>
+                    <p>
+                        <a href="">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="srv">
+                    <h3>services</h3>
+                    <p>
+                        <a href="">How to Order</a>
+                    </p>
+                    <p>
+                        <a href="">Our Product</a>
+                    </p>
+                    <p>
+                        <a href="">Order Status</a>
+                    </p>
+                    <p>
+                        <a href="#promo">Promo</a>
+                    </p>
+                    <p>
+                        <a href="">Payment Method</a>
+                    </p>
+                </div>
+                <div class="oth">
+                    <h3>other</h3>
+                    <p>
+                        <a href="#contact">Contact Us</a>
+                    </p>
+                    <p>
+                        <a href="">Help</a>
+                    </p>
+                    <p>
+                        <a href="">Privacy</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2022 Paradise Resturant</p>
+            <p>Developed with <span class="heart">&#10084;</span> by <span>Mahmoud El-Seidy</span></p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+
+</html>
